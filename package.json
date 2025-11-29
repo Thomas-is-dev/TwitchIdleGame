@@ -1,0 +1,28 @@
+{
+  "name": "twitchidlegame",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon ./src/start.ts",
+    "start": "node ./dist/start.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@paymoapp/active-window": "^2.1.2",
+    "dotenv": "^17.2.3",
+    "robotjs": "^0.6.0",
+    "tmi.js": "^1.8.5"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.13",
+    "@types/keyboardjs": "^2.5.3",
+    "@types/tmi.js": "^1.8.6",
+    "prettier": "^3.7.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
