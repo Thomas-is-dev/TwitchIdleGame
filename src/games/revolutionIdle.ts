@@ -1,9 +1,6 @@
 import { client } from "../services/twitch";
 import { isAppActive } from "../services/security";
 import robot from "robotjs";
-import dotenv from "dotenv";
-
-dotenv.config();
 
 const gameName = "Revolution Idle.exe";
 
